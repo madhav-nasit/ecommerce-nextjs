@@ -18,6 +18,19 @@
       }
     ],
     "paths": {
+      "api": ["./src/api"],
+      "assets": ["./src/assets"],
+      "assets/*": ["./src/assets/*"],
+      "components": ["./src/components"],
+      "static": ["./src/static"],
+      "contexts": ["./src/contexts"],
+      "hooks": ["./src/hooks"],
+      "queries": ["./src/queries"],
+      "routers": ["./src/routers"],
+      "routers/*": ["./src/routers/*"],
+      "types": ["./src/types"],
+      "utils": ["./src/utils"],
+      "src/*": ["./src/*"],
       "@/*": ["./src/*"]
     }
   },
